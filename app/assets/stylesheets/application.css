@@ -1,0 +1,237 @@
+.alertify, .alertify-logs {
+  z-index: 2000; }
+
+.overlay-button {
+  display: none;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  background-color: black;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  z-index: 5; }
+  .overlay-button .material-icons {
+    font-size: 16px; }
+
+.overlay-show {
+  display: inline-block; }
+
+.overlay-select {
+  left: 100px;
+  top: 10px; }
+
+.overlay-select.selected {
+  display: inline-block; }
+
+.overlay-zoom {
+  left: 100px;
+  top: 35px; }
+
+.overlay-delete {
+  left: 100px;
+  top: 60px; }
+
+.overlay-processing {
+  left: 100px;
+  top: 85px; }
+
+.photo-widget {
+  float: left;
+  border: none;
+  position: relative;
+  width: 125px;
+  margin-bottom: 6px;
+  margin-left: 3px;
+  margin-right: 3px; }
+
+.photo-widget:focus {
+  opacity: 0.5; }
+
+.photo-widget-header {
+  height: 125px; }
+
+.photo-widget-header img {
+  position: absolute; }
+
+.photo-widget-date {
+  background-color: #6E7C84;
+  color: white;
+  text-align: center;
+  height: 14px;
+  font-size: 10px;
+  font-weight: 900; }
+.fixed-action-button {
+  position: fixed;
+  top: 20px;
+  right: 20px; }
+
+.upper-right {
+  display: none;
+  position: fixed;
+  z-index: 5;
+  right: 15px;
+  top: 15px; }
+
+.photo-action-card {
+  max-width: 300px;
+  display: inline-block; }
+  .photo-action-card img.limit-size {
+    object-fit: cover;
+    width: 300px;
+    height: 300px; }
+  .photo-action-card .photo-action-widget {
+    width: 300px;
+    height: 350px; }
+  .photo-action-card .photo-action-widget.header {
+    height: 45px;
+    background-color: teal;
+    color: white;
+    padding: 10px; }
+  .photo-action-card .photo-action-widget.content {
+    padding: 10px;
+    height: 280px;
+    overflow-y: scroll; }
+    .photo-action-card .photo-action-widget.content img {
+      z-index: 1;
+      max-width: 100%;
+      max-height: 100%; }
+  .photo-action-card .card-action-buttons {
+    display: flex;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    margin-right: 10px; }
+  .photo-action-card .card-action-buttons.vert {
+    flex-direction: column;
+    margin-top: -26px;
+    top: 80px; }
+  .photo-action-card .card-action-buttons.horz {
+    flex-direction: row;
+    bottom: -40px; }
+  .photo-action-card .card-action-buttons li {
+    padding-left: 5px;
+    padding-bottom: 5px; }
+  .photo-action-card .card-title {
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+    font-weight: 400; }
+  .photo-action-card .photo-action-state-comment {
+    position: relative; }
+    .photo-action-card .photo-action-state-comment .comment {
+      position: static; }
+    .photo-action-card .photo-action-state-comment .comment-container {
+      position: relative; }
+    .photo-action-card .photo-action-state-comment img {
+      position: absolute;
+      height: 46px;
+      top: 0px;
+      width: auto;
+      border-radius: 50%;
+      z-index: auto; }
+    .photo-action-card .photo-action-state-comment .card {
+      background-color: #eeeeee;
+      position: relative;
+      min-height: 46px;
+      width: 240px;
+      left: 23px;
+      top: 12px; }
+    .photo-action-card .photo-action-state-comment .comment-date {
+      position: absolute;
+      right: 0px;
+      padding: 4px;
+      font-size: 10px; }
+    .photo-action-card .photo-action-state-comment p {
+      padding: 25px 0 0 0;
+      margin: 0px 0 0 30px;
+      font-size: 12px;
+      color: #757575; }
+    .photo-action-card .photo-action-state-comment input {
+      margin-left: 30px;
+      width: 200px;
+      font-size: 12px;
+      color: #757575; }
+  .photo-action-card .container-cards {
+    float: none;
+    display: inline-block;
+    text-align: initial; }
+
+.other-card .custom-card > .card {
+  max-width: 300px; }
+
+.other-card img.limit-size {
+  object-fit: cover;
+  width: 300px;
+  height: 300px; }
+
+.other-card .btn-price {
+  width: 65px;
+  height: 65px;
+  font-weight: 600;
+  font-size: 1.0rem;
+  line-height: 55px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  letter-spacing: 0; }
+
+.other-card .custom-card ul.card-action-buttons li {
+  display: inline-block;
+  padding-left: 5px; }
+
+.other-card .custom-card ul.card-action-buttons {
+  margin: -26px 10px 0 0;
+  text-align: right; }
+
+.other-card .custom-card .card .card-content .card-title, .other-card .custom-card .card .card-title {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-weight: 400; }
+
+.other-card .container-cards {
+  float: none;
+  display: inline-block;
+  text-align: initial; }
+.tagger {
+  border-bottom: 1px solid #9e9e9e; }
+
+.tagger > .added-tags {
+  float: left;
+  z-index: 100;
+  max-height: 150px;
+  height: 150px;
+  overflow-y: scroll;
+  padding-top: 20px; }
+
+.tagger > .added-tags > .tag {
+  background-color: #e0e0e0;
+  margin: 2px;
+  padding: 4px;
+  float: left;
+  border-radius: 5px; }
+  .tagger > .added-tags > .tag i {
+    font-size: 14px;
+    background-color: #bdbdbd;
+    margin: 3px;
+    border-radius: 50%;
+    cursor: pointer; }
+
+.tagger > input {
+  display: inline-block;
+  border: none !important;
+  margin-bottom: 0;
+  width: 100%; }
+
+.tagger > ul.tag-item-pane.collection {
+  float: left;
+  position: absolute;
+  z-index: 10;
+  margin-top: 1px;
+  min-width: 180px;
+  display: block;
+  max-height: 210px;
+  overflow-y: scroll; }
